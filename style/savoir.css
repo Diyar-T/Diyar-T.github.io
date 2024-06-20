@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Abstract";
+    src: url('/fonts/aAbstractGroovy.otf');
+}
+
+body {
+    background-image: linear-gradient(#95E1D4, #FFFAE7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: none;
+}
+
+.cursor-dot {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cursor-outline {
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(122, 50%, 37%, 0.794);
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.apropos {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+.tête {
+    border-radius: 500px;
+    margin-left: 20px;
+}
+
+.moi {
+    font-size: xx-large;
+}
+
+.noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    opacity: .05;
+    z-index: 1000;
+    pointer-events: none;
+    background: url(../noise.gif);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: "Abstract";
+}
+
+hr {
+    margin-bottom: 20px;
+    height: 1px;
+    border-radius: 10px;
+}
+
+.competences {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.competence {
+    width: 150px;
+    height: 150px;
+    background-color: #FFFAE7;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icone {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.nom-competence {
+    color: #f38181;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.cv-link {
+    text-decoration: none; /* Supprime le soulignement du lien */
+    color: gray; /* Couleur du texte du lien */
+}
+
+.cv-link:hover {
+    color: gray; /* Couleur du texte du lien au survol */
+}

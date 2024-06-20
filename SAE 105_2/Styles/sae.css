@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(237, 244, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 10px solid #B0BC98;
+    padding: 50px;
+    margin: 80px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9BA7C0;
+    text-shadow: 5px 5px #626D58;
+}
+
+.c {
+    font-size: xx-large;
+}
+
+.pdf {
+    display: flex;
+    justify-content: center;
+}
